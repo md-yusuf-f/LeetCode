@@ -12,7 +12,7 @@ public class MergeSortedArray {
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
         int[] mergedArray = Arrays.copyOf(nums1, m + n);
 
-        int i = 1;
+        int i = 0;
         int j = 0;
         int k = 0;
 
